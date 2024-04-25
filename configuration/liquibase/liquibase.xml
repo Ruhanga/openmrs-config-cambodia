@@ -6,6 +6,9 @@
 	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
 
+	<!-- Order Types -->
+	<include file="ordertypes.xml" relativeToChangelogFile="true"/>
+
 	<!-- Concepts -->
 	<include file="concepts.xml" relativeToChangelogFile="true"/>
 
